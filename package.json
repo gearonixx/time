@@ -1,0 +1,23 @@
+{
+  "name": "time",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/precache.mjs",
+    "preview": "vite preview",
+    "lint": "oxlint"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^24.13.2",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  },
+  "description": "Eighteen focus blocks a day on a fixed clock, and a graph of the days you actually cleared eight hours. Local-first.",
+  "dependencies": {
+    "preact": "^10.29.8"
+  }
+}
